@@ -13,18 +13,11 @@ public class Problem3 {
     public static void main(String[] argv) {
         Long targetNumber = 600851475143L;
         for(Long i = 2L; i < targetNumber; i++) {
-            if(targetNumber % i == 0 && Problem3.isPrime(targetNumber/i)) {
+            if(targetNumber % i == 0 && Tools.isPrime(targetNumber/i)) {
                 System.out.println("The result is " + targetNumber/i);
                 break;
             }
         }
     }
 
-    public static boolean isPrime(Long number) {
-        Long upper = Math.round(Math.sqrt(number));
-        for(Long i = 2L; i <= upper; i++) {
-            if(number % i == 0) return false;
-        }
-        return true;
-    }
 }
