@@ -1,6 +1,6 @@
 /**
  * Project Euler in Java
- * @Author MatthewLQM
+ * @author MatthewLQM
  *
  * Problem 4 Largest palindrome product
  * A palindromic number reads the same both ways.
