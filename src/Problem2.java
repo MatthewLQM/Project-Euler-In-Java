@@ -11,7 +11,7 @@
  */
 public class Problem2 {
     public static void main(String[] argv) {
-        int number1 = 1, number2 = 2, temp = 3, result = 2;
+        int number1, number2 = 2, temp = 3, result = 2;
         while(temp < 4000000) {
             if(temp % 2 == 0) result += temp;
             number1 = number2;
