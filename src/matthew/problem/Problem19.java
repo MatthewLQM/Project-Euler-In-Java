@@ -1,5 +1,8 @@
+package matthew.problem;
+
+import matthew.Problem;
+
 import java.util.Calendar;
-import java.util.Date;
 import java.util.GregorianCalendar;
 
 /**
@@ -7,7 +10,7 @@ import java.util.GregorianCalendar;
  *
  * @author MatthewLQM
  * <p>
- * Problem 19 Counting Sundays
+ * matthew.Problem 19 Counting Sundays
  * https://projecteuler.net/problem=19
  */
 public class Problem19 implements Problem {

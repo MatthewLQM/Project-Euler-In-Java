@@ -1,8 +1,10 @@
+package matthew.problem;
+
 /**
  * Project Euler in Java
  * @author MatthewLQM
  *
- * Problem 6 Sum square difference
+ * matthew.Problem 6 Sum square difference
  * The sum of the squares of the first ten natural numbers is,
  *     12 + 22 + ... + 102 = 385
  * The square of the sum of the first ten natural numbers is,

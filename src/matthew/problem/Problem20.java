@@ -1,11 +1,15 @@
+package matthew.problem;
+
+import matthew.Problem;
+
 import java.math.BigDecimal;
 /**
  * Project Euler in Java
  *
  * @author MatthewLQM
  * <p>
- * Problem 20 Counting Sundays
- * https://projecteuler.net/problem=19
+ * matthew.Problem 20 Counting Sundays
+ * https://projecteuler.net/problem=20
  */
 public class Problem20 implements Problem {
 

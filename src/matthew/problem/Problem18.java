@@ -1,3 +1,7 @@
+package matthew.problem;
+
+import matthew.Problem;
+
 import java.io.FileInputStream;
 import java.io.InputStream;
 import java.net.URL;
@@ -8,7 +12,7 @@ import java.util.Scanner;
  *
  * @author MatthewLQM
  * <p>
- * Problem 18 Maximum path sum I
+ * matthew.Problem 18 Maximum path sum I
  * https://projecteuler.net/problem=18
  */
 public class Problem18 implements Problem {

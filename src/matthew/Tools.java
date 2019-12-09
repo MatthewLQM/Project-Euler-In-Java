@@ -1,3 +1,5 @@
+package matthew;
+
 public class Tools {
 
     public static boolean isPrime(Long number) {
