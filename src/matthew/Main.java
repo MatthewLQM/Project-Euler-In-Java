@@ -6,18 +6,10 @@ public class Main {
 
     public static void main(String[] args) throws Exception {
         long time = System.nanoTime();
-        Problem problem = new Problem22();
+        Problem problem = new Problem24();
         int output = problem.solve();
         time = System.nanoTime() - time;
         System.out.println("Result: " + output + "\nTime in nanoseconds: " + time);
+        System.out.println(Tools.factorial(9));
     }
-
-//    class TreeNode {
-//        int val;
-//        TreeNode left;
-//        TreeNode right;
-//        TreeNode(int x) {
-//            val = x;
-//        }
-//    }
 }
