@@ -1,5 +1,7 @@
 package matthew;
 
+import java.math.BigDecimal;
+
 public class Tools {
 
     public static boolean isPrime(Long number) {
@@ -32,10 +34,17 @@ public class Tools {
 
     public static int factorial(int n) {
         int result = 1;
-        for(int i = 2; i <= n; i++) {
+        for (int i = 2; i <= n; i++) {
             result *= i;
         }
         return result;
     }
 
+    public static Long fibonacci(int i) {
+        if (i == 1 || i == 2) {
+            return 1L;
+        } else {
+            return fibonacci(i - 1) + fibonacci(i - 2);
+        }
+    }
 }

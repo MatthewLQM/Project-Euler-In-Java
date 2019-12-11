@@ -6,7 +6,7 @@ public class Main {
 
     public static void main(String[] args) throws Exception {
         long time = System.nanoTime();
-        Problem problem = new Problem24();
+        Problem problem = new Problem26();
         int output = problem.solve();
         time = System.nanoTime() - time;
         System.out.println("Result: " + output + "\nTime in nanoseconds: " + time);

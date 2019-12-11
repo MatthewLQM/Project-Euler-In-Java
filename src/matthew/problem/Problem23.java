@@ -37,7 +37,12 @@ public class Problem23 implements Problem {
                 result += i;
             }
         }
+        Math.log10(1);
         return result;
+    }
+
+    public static void main(String[] args) {
+        System.out.println(Math.log10(10));
     }
 
 }
