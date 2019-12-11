@@ -5,6 +5,9 @@ import java.math.BigDecimal;
 public class Tools {
 
     public static boolean isPrime(Long number) {
+        if(number < 2) {
+            return false;
+        }
         Long upper = Math.round(Math.sqrt(number));
         for (Long i = 2L; i <= upper; i++) {
             if (number % i == 0) {
